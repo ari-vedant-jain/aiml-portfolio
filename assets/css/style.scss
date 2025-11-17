@@ -21,6 +21,87 @@ body {
   font-size: 16px;
 }
 
+/* Scroll Indicator */
+.scroll-indicator {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 1000;
+  opacity: 0;
+  animation: fadeInScroll 1s ease-in-out 1s forwards;
+}
+
+@keyframes fadeInScroll {
+  to {
+    opacity: 1;
+  }
+}
+
+.scroll-icon {
+  width: 28px;
+  height: 45px;
+  border: 2px solid #C5FF41;
+  border-radius: 20px;
+  position: relative;
+  animation: bounce 2s infinite;
+}
+
+.scroll-wheel {
+  width: 4px;
+  height: 8px;
+  background: #C5FF41;
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scroll 2s infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    top: 8px;
+  }
+  50% {
+    opacity: 0.5;
+    top: 20px;
+  }
+  100% {
+    opacity: 0;
+    top: 28px;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.scroll-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #C5FF41;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Hide scroll indicator on mobile */
+@media (max-width: 768px) {
+  .scroll-indicator {
+    display: none;
+  }
+}
+
 /* Main content */
 .main-content {
   max-width: 1200px;
