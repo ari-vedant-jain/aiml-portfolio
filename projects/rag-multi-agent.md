@@ -1,3 +1,8 @@
+---
+layout: default
+title: Multi-Agent RAG with Security-Aware Orchestration
+---
+
 # Multi-Agent RAG with Security-Aware Orchestration
 
 ## Overview

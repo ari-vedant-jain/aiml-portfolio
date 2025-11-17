@@ -2,10 +2,15 @@
 
 ## ✅ What's Been Fixed
 
-1. **Removed complex custom layout** - No more 404 errors for icons
-2. **Simplified CSS** - Clean, professional styling that works
-3. **Removed repeated text** - Publications are now concise
-4. **Added front matter** - All pages will render correctly
+1. **Fixed 404 links** - All internal links now work (removed .md extensions)
+2. **Updated name** - Changed to "Ari Vedant Jain" throughout
+3. **Added personal note** - "My name is Vedant Jain, but I prefer to go by Ari"
+4. **Updated title** - Changed from "AI Specialist" to "AI Technologist"
+5. **Added YouTube link** - https://www.youtube.com/@ari.in_media_res
+6. **Removed complex custom layout** - No more 404 errors for icons
+7. **Simplified CSS** - Clean, professional styling that works
+8. **Removed repeated text** - Publications are now concise
+9. **Added front matter** - All pages will render correctly
 
 ## 🚀 Deploy to GitHub Pages
 

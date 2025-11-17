@@ -1,3 +1,8 @@
+---
+layout: default
+title: Automated Red Teaming for Databricks Mosaic AI
+---
+
 # Automated Red Teaming for Databricks Mosaic AI Model Serving (Protect AI Recon)
 
 ## Overview

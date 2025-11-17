@@ -1,3 +1,8 @@
+---
+layout: default
+title: Building Guardrails for DeepSeek-R1 on Amazon Bedrock
+---
+
 # Building Guardrails for DeepSeek-R1 on Amazon Bedrock
 
 ## Overview

@@ -1,6 +1,13 @@
+---
+layout: default
+title: About Me
+---
+
 # About Me
 
-I am an AI/ML specialist with deep experience across the enterprise AI lifecycle… from data and model pipelines to RAG architectures, multi-agent systems, and AI security.
+> My name is **Vedant Jain**, but I prefer to go by **Ari**.
+
+I am an **AI Technologist** with deep experience across the enterprise AI lifecycle… from data and model pipelines to RAG architectures, multi-agent systems, and AI security.
 
 Over the past several years I have:
 

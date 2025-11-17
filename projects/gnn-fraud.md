@@ -1,3 +1,8 @@
+---
+layout: default
+title: Graph Neural Network Fraud Detection
+---
+
 # Graph Neural Network Fraud Detection with Amazon SageMaker
 
 ## Overview

@@ -1,8 +1,14 @@
+---
+layout: default
+title: Contact
+---
+
 # Contact
 
 If you’d like to discuss collaboration, roles, or joint projects around AI architecture, RAG platforms, AI security, or partner ecosystems, you can reach me here:
 
-- **Email:** _[arivj314@gmail.com]_  
+- **Email:** arivj314@gmail.com
+- **YouTube:** [youtube.com/@ari.in_media_res](https://www.youtube.com/@ari.in_media_res)
 - **LinkedIn:** _[https://www.linkedin.com/in/arivj/]_  
 - **Medium:** https://medium.com/@ari_in_media_res  
 

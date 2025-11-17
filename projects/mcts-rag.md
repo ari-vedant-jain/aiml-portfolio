@@ -1,3 +1,8 @@
+---
+layout: default
+title: Improving RAG Answer Quality with MCTS
+---
+
 # Improving RAG Answer Quality with Monte Carlo Tree Search (MCTS)
 
 ## Overview
