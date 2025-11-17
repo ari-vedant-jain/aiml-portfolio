@@ -13,15 +13,33 @@ I specialize in building **agentic AI systems** for enterprises—from autonomou
 
 ## 💼 Experience
 
-- **Protect AI** – Building AI security capabilities for LLMs and gen-AI workloads: automated red teaming, guardrails, and endpoint scanning for platforms like Amazon Bedrock and Databricks Mosaic AI.
+- **Protect AI** (Houston, TX) — *Acquired by Palo Alto Networks (PANW)*
+  **Principal AI Solutions Architect** | October 2024 – Present
+  - Architected partner integration strategy for Databricks, AWS & Dataiku and pioneered AI threat modeling and red teaming
+  - Discovered critical security vulnerability in Guardian Gateway policy enforcement, preventing potential customer security breaches and preserving company reputation
+  - Developed and advanced Model Leaderboard methodology for LLM security evaluation, positioning Protect AI as industry thought leader in red teaming and security testing
+  - Led successful technical POCs for enterprise clients, directly contributing to new business acquisition and expansion of Protect AI's customer portfolio
 
-- **AWS** – Led global initiatives for Amazon SageMaker Human-in-the-Loop ML and 2P models, plus Ray + AWS accelerator integrations highlighted at Ray Summit '23.
+- **Amazon Web Services (AWS)** (Houston, TX)
+  **Global AI/ML Specialist Solutions Architect** (Tech Center of Excellence) | July 2021 – June 2024
+  - Led worldwide initiative to build and Go-to-Market strategic/high-value partner solutions for Generative AI, seeing close to 6x increase in partner adoption of AWS services
+  - Built and presented GenAI training materials to Global Field Organization
+  - Led the product launch of open-source Ray on AWS Accelerators at Ray Summit 2023
+  - Authored and Bar Raiser for AI/ML Blogs. Co-authored 11 blog posts, with one being the top 20 all-time most viewed AWS blog
+  - Made technical contributions to Amazon SageMaker Studio, with work featured in official product documentation
 
-- **Databricks** – Worked on agentic AI solutions and MLOps integrations for enterprise customers deploying multi-agent systems on Databricks platform.
+- **Databricks** (Houston, TX)
+  **Sr. Solutions Architect / Practice Leader** | May 2017 – May 2021
+  - Self-starter and leader of Competitive Intelligence Subject Matter Expertise group
+  - Drove Databricks adoption by architecting scalable solutions for customers from startups to Fortune 50 companies
+  - Community evangelizing Spark and Databricks platform for use cases across Healthcare, Utilities, and Oil & Gas industries
+  - Mentored, supervised, and trained employees on value proposition of Big Data and AI including large-scale time series analysis
 
-- **Cloudera** – Contributed to AI/ML platform capabilities and enterprise data science workflows for large-scale deployments.
-
-- **Public technical writing** – 20+ articles spanning agentic AI, RAG, multi-agent systems, AI security, prompt-injection testing, and distributed ML infrastructure.
+- **Hortonworks** (now Cloudera) (Houston, TX)
+  **Solutions Engineer (Pre-Sales)** | September 2014 – May 2017
+  - Supervised and trained employees on Hadoop & Cloud infrastructure
+  - Worked with cross-functional teams (Sales, Product Management, Marketing, Services, Business Development, Training, Engineering) to architect cloud and on-premise solutions for Fortune 500 companies
+  - Developed predictive analytics application for Oil & Gas well production/log analysis using AWS, Python, Hadoop & Spark
 
 ---
 
