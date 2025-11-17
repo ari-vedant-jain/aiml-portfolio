@@ -1,320 +1,337 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+/* Modern Dark Portfolio - Inspired by Framer designs */
 
-/* Enhanced styling for professional portfolio */
-
-/* Better spacing and typography */
+/* Reset */
 * {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #a0a0a0;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
-.main-content {
-  max-width: 64rem;
-  padding: 2rem 1rem;
-  margin: 0 auto;
-  line-height: 1.8;
-  font-size: 1.1rem;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
-}
-
-code, pre, code *, pre * {
-  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', monospace !important;
-}
-
-/* Page header customization */
+/* Header */
 .page-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 4rem 1rem;
+  background: #0a0a0a;
+  padding: 120px 40px 80px;
+  text-align: left;
+  border-bottom: 1px solid #1a1a1a;
 }
 
 .project-name {
-  font-size: 3rem;
-  font-weight: 800;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: -0.02em;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  font-size: 72px;
+  font-weight: 900;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
-.project-tagline {
-  font-size: 1.25rem;
-  font-weight: 400;
-  font-family: 'Inter', sans-serif;
-  opacity: 0.95;
-  letter-spacing: -0.01em;
+/* Main content */
+.main-content {
+  max-width: 1200px;
+  padding: 80px 40px;
+  margin: 0 auto;
 }
 
-/* Headings with better styling */
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0;
+}
+
 .main-content h1 {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  font-size: 2.5rem;
-  font-weight: 800;
-  font-family: 'Inter', sans-serif;
+  font-size: 56px;
+  font-weight: 900;
   letter-spacing: -0.02em;
-  color: #2c3e50;
-  border-bottom: 3px solid #667eea;
-  padding-bottom: 0.5rem;
+  margin-bottom: 24px;
+  border: none;
+  padding: 0;
 }
 
 .main-content h2 {
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.75rem;
-  padding-top: 1rem;
-  border-bottom: 2px solid #e1e4e8;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: -0.02em;
-  color: #34495e;
+  letter-spacing: -0.01em;
+  margin: 80px 0 32px;
+  border: none;
+  padding: 0;
+  color: #ffffff;
 }
 
 .main-content h3 {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: -0.01em;
-  color: #5a6c7d;
+  margin: 40px 0 16px;
+  color: #e0e0e0;
 }
 
-/* Blockquotes for special notes */
+.main-content p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #a0a0a0;
+  margin: 16px 0;
+}
+
+/* Blockquote */
 .main-content blockquote {
-  border-left: 4px solid #667eea;
-  padding: 1rem 1.5rem;
-  margin: 2rem 0;
-  background: linear-gradient(to right, rgba(102, 126, 234, 0.05), transparent);
-  border-radius: 0 8px 8px 0;
-  font-style: italic;
-  color: #5a6c7d;
+  border-left: 4px solid #C5FF41;
+  padding: 24px 32px;
+  margin: 32px 0;
+  background: #111111;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #e0e0e0;
 }
 
 .main-content blockquote strong {
-  color: #667eea;
+  color: #C5FF41;
   font-weight: 600;
 }
 
-/* Enhanced links */
+/* Links */
 .main-content a {
-  color: #667eea;
+  color: #C5FF41;
   text-decoration: none;
   font-weight: 500;
+  transition: all 0.2s ease;
   border-bottom: 2px solid transparent;
-  transition: all 0.3s ease;
 }
 
 .main-content a:hover {
-  color: #764ba2;
-  border-bottom: 2px solid #764ba2;
-  text-decoration: none;
+  color: #d4ff6b;
+  border-bottom: 2px solid #C5FF41;
 }
 
-/* List items with better spacing */
-.main-content ul,
-.main-content ol {
-  margin: 1.5rem 0;
-  padding-left: 2rem;
+/* Lists */
+.main-content ul, .main-content ol {
+  margin: 24px 0;
+  padding-left: 0;
+  list-style: none;
 }
 
 .main-content li {
-  margin: 1rem 0;
-  line-height: 1.8;
+  margin: 16px 0;
+  padding-left: 32px;
+  position: relative;
+  font-size: 18px;
+  color: #a0a0a0;
 }
 
-/* Featured project links */
-.main-content ul li a {
-  display: inline-block;
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
+.main-content li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #C5FF41;
+  font-weight: 600;
 }
 
-/* Horizontal rules */
-.main-content hr {
-  height: 2px;
-  padding: 0;
-  margin: 3rem 0;
-  background: linear-gradient(to right, transparent, #667eea, transparent);
-  border: 0;
+/* Experience section */
+.main-content h2 + ul {
+  margin-top: 40px;
 }
 
-/* Code styling */
+.main-content h2 + ul > li {
+  background: #111111;
+  border: 1px solid #1a1a1a;
+  border-radius: 16px;
+  padding: 32px;
+  margin: 24px 0;
+  transition: all 0.3s ease;
+}
+
+.main-content h2 + ul > li:before {
+  display: none;
+}
+
+.main-content h2 + ul > li:hover {
+  background: #151515;
+  border-color: #2a2a2a;
+  transform: translateY(-4px);
+}
+
+.main-content h2 + ul > li strong {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Code blocks */
 .main-content code {
-  padding: 0.2rem 0.5rem;
-  margin: 0;
-  font-size: 90%;
-  background-color: rgba(102, 126, 234, 0.1);
-  border-radius: 4px;
-  border: 1px solid rgba(102, 126, 234, 0.2);
-  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
-  font-weight: 500;
+  background: #111111;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  color: #C5FF41;
 }
 
 .main-content pre {
-  padding: 1.5rem;
-  overflow: auto;
-  font-size: 90%;
-  line-height: 1.6;
-  background-color: #f8f9fa;
-  border-radius: 8px;
-  border: 1px solid #e1e4e8;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  background: #111111;
+  border: 1px solid #1a1a1a;
+  border-radius: 12px;
+  padding: 24px;
+  overflow-x: auto;
+  margin: 24px 0;
 }
 
 .main-content pre code {
   background: transparent;
   border: none;
   padding: 0;
-  font-family: 'JetBrains Mono', 'Monaco', 'Menlo', 'Consolas', monospace;
+  color: #e0e0e0;
 }
 
-/* Tables */
-.main-content table {
-  display: block;
-  width: 100%;
-  overflow: auto;
-  margin: 2rem 0;
-  border-spacing: 0;
-  border-collapse: collapse;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.main-content table th {
-  font-weight: 600;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 0.75rem 1rem;
+/* Horizontal rule */
+.main-content hr {
   border: none;
-  text-align: left;
+  height: 1px;
+  background: #1a1a1a;
+  margin: 80px 0;
 }
 
-.main-content table td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid #e1e4e8;
-}
-
-.main-content table tr:last-child td {
-  border-bottom: none;
-}
-
-.main-content table tr:hover {
-  background-color: rgba(102, 126, 234, 0.05);
-}
-
-/* Strong text emphasis */
-.main-content strong {
-  font-weight: 700;
-  font-family: 'Inter', sans-serif;
-  color: #2c3e50;
-}
-
-/* Three column layout */
+/* Three column section */
 .three-column-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-  margin: 3rem 0;
+  gap: 32px;
+  margin: 80px 0;
 }
 
 .three-column-section .column {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  border: 1px solid #e1e4e8;
+  background: #111111;
+  border: 1px solid #1a1a1a;
+  border-radius: 20px;
+  padding: 40px;
   transition: all 0.3s ease;
 }
 
 .three-column-section .column:hover {
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
-  transform: translateY(-4px);
-  border-color: #667eea;
+  background: #151515;
+  border-color: #C5FF41;
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(197, 255, 65, 0.1);
 }
 
 .three-column-section .column h2 {
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 1.5rem;
-  border-bottom: 2px solid #667eea;
-  padding-bottom: 0.75rem;
-  margin-bottom: 1.5rem;
+  font-size: 28px;
+  margin: 0 0 24px 0;
+  padding: 0 0 16px 0;
+  border-bottom: 2px solid #1a1a1a;
+  color: #ffffff;
+}
+
+.three-column-section .column p {
+  font-size: 16px;
+  margin: 16px 0;
+  color: #808080;
 }
 
 .three-column-section .column ul {
-  margin: 1rem 0;
-  padding-left: 1.5rem;
+  margin: 16px 0;
+  padding: 0;
 }
 
 .three-column-section .column li {
-  margin: 0.75rem 0;
-  line-height: 1.6;
+  margin: 12px 0;
+  padding-left: 24px;
+  font-size: 16px;
+  color: #a0a0a0;
+}
+
+.three-column-section .column li:before {
+  content: "•";
+  left: 0;
+  color: #C5FF41;
 }
 
 .three-column-section .column a {
-  color: #667eea;
+  color: #e0e0e0;
   font-weight: 500;
-  transition: all 0.2s ease;
 }
 
 .three-column-section .column a:hover {
-  color: #764ba2;
-  border-bottom-color: #764ba2;
+  color: #C5FF41;
 }
 
-/* Responsive design */
+/* Footer */
+.site-footer {
+  border-top: 1px solid #1a1a1a;
+  padding: 60px 0;
+  margin-top: 120px;
+  text-align: center;
+  color: #606060;
+  font-size: 14px;
+}
+
+.site-footer a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #C5FF41;
+}
+
+/* Responsive */
 @media (max-width: 1024px) {
   .three-column-section {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 24px;
+  }
+
+  .project-name {
+    font-size: 48px;
+  }
+
+  .main-content h1 {
+    font-size: 40px;
+  }
+
+  .main-content h2 {
+    font-size: 28px;
   }
 }
 
 @media (max-width: 768px) {
-  .main-content {
-    padding: 1rem;
-    font-size: 1rem;
+  .page-header {
+    padding: 80px 24px 60px;
   }
 
-  .page-header {
-    padding: 2rem 1rem;
+  .main-content {
+    padding: 60px 24px;
   }
 
   .project-name {
-    font-size: 2rem;
-  }
-
-  .project-tagline {
-    font-size: 1rem;
+    font-size: 36px;
   }
 
   .main-content h1 {
-    font-size: 1.75rem;
+    font-size: 32px;
   }
 
   .main-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .main-content h3 {
-    font-size: 1.25rem;
-  }
-
-  .three-column-section {
-    gap: 1.5rem;
+    font-size: 24px;
+    margin: 60px 0 24px;
   }
 
   .three-column-section .column {
-    padding: 1.5rem;
+    padding: 32px 24px;
   }
 }
 
