@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # **Ari Jain — AI/ML Portfolio**
 
 **AI Specialist • RAG & Multi-Agent Architectures • AI Security & LLM Red Teaming • Distributed ML & MLOps**
