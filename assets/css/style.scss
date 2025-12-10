@@ -191,38 +191,38 @@ body {
 
 .btn-primary, .btn-secondary {
   display: inline-block;
-  padding: 16px 32px;
-  font-size: 16px;
+  padding: 14px 28px;
+  font-size: 15px;
   font-weight: 600;
   text-decoration: none;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-  border: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
 }
 
 .btn-primary {
   background: #C5FF41;
-  color: #0a0a0a;
-  border: 2px solid transparent;
+  color: #000000;
+  border: 1px solid #C5FF41;
 }
 
 .btn-primary:hover {
-  background: #d4ff6b;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(197, 255, 65, 0.3);
+  background: #b8f030;
+  border-color: #b8f030;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(197, 255, 65, 0.25);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #e0e0e0;
-  border: 2px solid #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #333333;
 }
 
 .btn-secondary:hover {
-  background: #111111;
-  border-color: #C5FF41;
-  color: #C5FF41;
-  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: #444444;
+  transform: translateY(-1px);
 }
 
 /* Expertise Grid */
