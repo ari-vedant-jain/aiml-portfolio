@@ -5,15 +5,15 @@ title: Contact
 
 # Contact
 
-If you’d like to discuss collaboration, roles, or joint projects around AI architecture, RAG platforms, AI security, or partner ecosystems, you can reach me here:
+If you'd like to discuss collaboration, roles, or joint projects around AI architecture, RAG platforms, AI security, or partner ecosystems, you can reach me here:
 
-- **Email:** arivj314@gmail.com
+- **Email:** [arivj314@gmail.com](mailto:arivj314@gmail.com)
 - **YouTube:** [youtube.com/@ari.in_media_res](https://www.youtube.com/@ari.in_media_res)
-- **LinkedIn:** _[https://www.linkedin.com/in/arivj/]_  
-- **Medium:** https://medium.com/@ari_in_media_res  
+- **LinkedIn:** [linkedin.com/in/arivj](https://www.linkedin.com/in/arivj/)
+- **Medium:** [medium.com/@ari_in_media_res](https://medium.com/@ari_in_media_res)
 
 Optionally:
-- **GitHub:** _[https://github.com/ari-vedant-jain]_  
+- **GitHub:** [github.com/ari-vedant-jain](https://github.com/ari-vedant-jain)  
 
 I’m open to:
 - AI Specialist / Solutions Architect opportunities  
