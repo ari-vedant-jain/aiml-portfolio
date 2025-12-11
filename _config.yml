@@ -10,6 +10,11 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# SASS settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # GitHub Pages settings
 baseurl: "/aiml-portfolio"
 url: "https://ari-vedant-jain.github.io"
