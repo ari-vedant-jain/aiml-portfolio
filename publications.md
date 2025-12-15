@@ -9,12 +9,12 @@ Technical articles, blog posts, and educational content on AI/ML, GenAI, and AI 
 
 ---
 
-## Publications Overview
+## Publications by Platform
 
 <div class="publications-grid">
   <div class="publication-category">
     <h3>AWS Publications</h3>
-    <p>Co-authored 11 technical blog posts on AI/ML, GenAI, and cloud architecture. One post ranked in top 20 all-time most viewed AWS blogs.</p>
+    <p>11 technical blog posts on AI/ML, GenAI, and cloud architecture. One post ranked in top 20 all-time most viewed AWS blogs.</p>
     <a href="publications/aws-blogs" class="publication-link">View AWS Blogs →</a>
   </div>
 
@@ -39,63 +39,20 @@ Technical articles, blog posts, and educational content on AI/ML, GenAI, and AI 
 
 ---
 
-## Featured Content
-
-### AI Security & Red Teaming
-
-<div class="security-section">
-  <h3>AI Security Deep Dives</h3>
-  <div class="security-links">
-    <a href="security/llm-red-teaming" class="security-link">LLM Red Teaming & Guardrails</a>
-    <a href="security/prompt-injection-tdd" class="security-link">Prompt-Injection Test-Driven Development</a>
-    <a href="security/model-leaderboard" class="security-link">LLM Security Model Leaderboard Methodology</a>
-  </div>
-</div>
-
----
-
-### GenAI & Multi-Agent Systems
-
-<div class="project-card">
-  <div class="project-header">
-    <h3>Building Production RAG Systems</h3>
-    <div class="project-tags">
-      <span class="tag">RAG</span>
-      <span class="tag">AWS Bedrock</span>
-      <span class="tag">LangChain</span>
-    </div>
-  </div>
-  <p class="project-description">Comprehensive guide to building production-grade RAG systems, covering architecture patterns, retrieval optimization, and deployment best practices.</p>
-</div>
-
-<div class="project-card">
-  <div class="project-header">
-    <h3>Multi-Agent Orchestration Patterns</h3>
-    <div class="project-tags">
-      <span class="tag">LangGraph</span>
-      <span class="tag">Multi-Agent</span>
-      <span class="tag">Architecture</span>
-    </div>
-  </div>
-  <p class="project-description">Design patterns and best practices for coordinating multiple AI agents in enterprise workflows, including security considerations and failure handling.</p>
-</div>
-
----
-
-### AWS & Cloud ML
+## Featured Articles
 
 <div class="projects-grid">
   <div class="project-card-small">
+    <h4>Enhancing RAG with Multi-Agent Intelligence and Security</h4>
+    <p>Comprehensive guide to building production-grade RAG systems with multi-agent orchestration and security controls.</p>
+  </div>
+  <div class="project-card-small">
+    <h4>Automated Red Teaming for Databricks Mosaic AI</h4>
+    <p>Deep-dive into systematic adversarial testing of LLM deployments using Protect AI Recon.</p>
+  </div>
+  <div class="project-card-small">
     <h4>Ray on AWS Accelerators Launch</h4>
-    <p>Technical content and reference architectures for distributed ML training at scale using Ray on AWS.</p>
-  </div>
-  <div class="project-card-small">
-    <h4>SageMaker Studio Contributions</h4>
-    <p>Technical documentation and feature guides for Amazon SageMaker Studio notebook experience.</p>
-  </div>
-  <div class="project-card-small">
-    <h4>GenAI Partner Solutions</h4>
-    <p>Reference architectures and technical validation frameworks for AWS GenAI partner ecosystem.</p>
+    <p>Technical content and reference architectures for distributed ML training at scale.</p>
   </div>
   <div class="project-card-small">
     <h4>Graph Neural Networks on SageMaker</h4>
@@ -105,23 +62,27 @@ Technical articles, blog posts, and educational content on AI/ML, GenAI, and AI 
 
 ---
 
-## Speaking & Workshops
+## Topics
 
-- **Ray Summit 2023** - Product launch presentation for Ray on AWS Accelerators
-- **AWS Internal Training** - GenAI training materials for global Solutions Architects
-- **Industry Events** - Regular speaker on AI/ML, RAG systems, and AI security topics
+<div class="skill-category">
+  <h4>Areas of Focus</h4>
+  <div class="skill-tags">
+    <span class="skill-tag">Agentic AI & Multi-Agent Systems</span>
+    <span class="skill-tag">AI Security & Red Teaming</span>
+    <span class="skill-tag">RAG Architectures</span>
+    <span class="skill-tag">Cloud ML Platforms</span>
+    <span class="skill-tag">Partner Ecosystems</span>
+  </div>
+</div>
 
 ---
 
-## Content Topics
+## Speaking
 
-My writing and speaking covers:
-
-- **Agentic AI & Multi-Agent Systems** - Architecture patterns, orchestration, and production deployment
-- **AI Security & Red Teaming** - Adversarial testing, guardrails, and vulnerability assessment
-- **RAG Architectures** - Design patterns, retrieval optimization, and evaluation frameworks
-- **Cloud ML Platforms** - AWS Bedrock, SageMaker, Databricks, and distributed training
-- **Partner Ecosystems** - Technical GTM, integration patterns, and solution architecture
+- **Ray Summit 2023** - Product launch for Ray on AWS Accelerators
+- **AWS Internal Training** - GenAI training for global Solutions Architects
+- **Databricks Data + AI Summit** - Partner integration presentations
+- **Customer Workshops** - AI security and multi-agent systems
 
 ---
 
